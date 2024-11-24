@@ -647,7 +647,7 @@ M.configure_highlights = function()
 
   if M.config.opt.integrations.lualine then
     hi(0, "lualine_a_command", { bg = color.green, bold = true, fg = color.dark })
-    hi(0, "lualine_a_inactive", { bg = color.light_slate_gray, bold = true, fg = color.dark })
+    hi(0, "lualine_a_inactive", { bg = color.peach_orange, bold = true, fg = color.dark })
     hi(0, "lualine_a_insert", { bg = color.green, bold = true, fg = color.dark })
     hi(0, "lualine_a_normal", { bg = color.green, bold = true, fg = color.dark })
     hi(0, "lualine_a_replace", { bg = color.green, bold = true, fg = color.dark })
